@@ -1,0 +1,123 @@
+﻿.carousel-caption .button{
+  border: 2px solid white;
+  -webkit-border: 2px solid white;
+  -moz-border: 2px solid white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: white;
+  font-family: 'open_sansbold';
+  font-size: 23px;
+   
+  text-shadow: 2px 2px #000000;
+  margin: 30px 0 0 0;
+  display: inline-block;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.carousel-caption .button:hover{
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.intro
+{
+    background-color: #0067c5;
+    height:60px;
+    border-bottom: 2px solid darkblue;
+}
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  padding: 10px;
+  background: rgba(80, 80, 80, 0.9);
+  -webkit-transform: translateY(45px);
+  -ms-transform: translateY(45px);
+  transform: translateY(45px);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.hovereffect:hover h2 {
+  -webkit-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  transform: translateY(5px);
+  margin:0px;
+}
+
+.hovereffect p.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  color: rgb(240,240,240);
+  background-color: rgba(80,80,80, 0.9);
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  font-weight: normal;
+  margin: 7px;
+}
+
+.hovereffect:hover p.info {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.hovereffect p.info:hover {
+  box-shadow: 0 0 5px #fff;
+}
+
+.textIndex
+{
+    color: white;
+    text-align: center;
+    text-decoration:none;
+}
+
+.overlay
+{
+    color: white;
+    text-align: center;
+    text-decoration:none;
+}
+
+.top-buffer { margin-top:20px; }

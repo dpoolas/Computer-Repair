@@ -1,0 +1,6 @@
+c:\users\divinity\documents\visual studio 2015\Projects\ComputerRepair\ComputerRepair\bin\ComputerRepair.dll.config
+c:\users\divinity\documents\visual studio 2015\Projects\ComputerRepair\ComputerRepair\bin\ComputerRepair.dll
+c:\users\divinity\documents\visual studio 2015\Projects\ComputerRepair\ComputerRepair\bin\ComputerRepair.pdb
+c:\users\divinity\documents\visual studio 2015\Projects\ComputerRepair\ComputerRepair\obj\Debug\ComputerRepair.csprojResolveAssemblyReference.cache
+c:\users\divinity\documents\visual studio 2015\Projects\ComputerRepair\ComputerRepair\obj\Debug\ComputerRepair.dll
+c:\users\divinity\documents\visual studio 2015\Projects\ComputerRepair\ComputerRepair\obj\Debug\ComputerRepair.pdb
